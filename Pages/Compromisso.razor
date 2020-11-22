@@ -1,0 +1,38 @@
+@page "/compromisso"
+@using Model
+
+<h1>Compromisso</h1>
+<header>
+ <div>
+  <button class="btn btn-primary">Salvar e fechar</button>
+  <button class="btn btn-primary">Apagar</button>
+  <button class="btn btn-primary">Recorrência</button>
+ </div>
+</header>
+<div>
+ <EditForm Model="@client" OnValidSubmit="@HandleValidSubmit">
+  <DataAnnotationsValidator />
+  <ValidationSummary />
+  <InputText id="name" />
+  <button class="btn btn-primary" type="submit">Submit</button>
+ </EditForm>
+</div>
+<div>
+ <EditForm>
+
+
+
+ </EditForm>
+
+</div>
+
+
+@code{
+ private Client client = new Client();
+
+ private void HandleValidSubmit()
+ {
+
+ }
+
+}

@@ -49,3 +49,5 @@ C:\Users\Gabriel\Documents\Projetos\blazor\BlazorApp\obj\Debug\netcoreapp3.1\Bla
 C:\Users\Gabriel\Documents\Projetos\blazor\BlazorApp\obj\Debug\netcoreapp3.1\BlazorApp.pdb
 C:\Users\Gabriel\Documents\Projetos\blazor\BlazorApp\obj\Debug\netcoreapp3.1\BlazorApp.genruntimeconfig.cache
 C:\Users\Gabriel\Documents\Projetos\blazor\BlazorApp\obj\Debug\netcoreapp3.1\BlazorApp.csproj.CopyComplete
+C:\Users\Gabriel\Documents\Projetos\blazor\BlazorApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Compromisso.razor.g.cs
+C:\Users\Gabriel\Documents\Projetos\blazor\BlazorApp\obj\Debug\netcoreapp3.1\Razor\Pages\Compromisso.razor.g.cs
