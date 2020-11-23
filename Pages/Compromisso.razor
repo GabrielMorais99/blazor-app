@@ -27,16 +27,17 @@
     <InputText id="tipo" @bind-Value="client.Tipo" class="form-control" style='max-width: 300px; margin-left:20px' />
 
    </div>
-   <label class='form-check-label' for="test">Pessoa</label>
-   <InputText id="pessoa" @bind-Value="client.Pessoa" class="form-control" style='' />
-
+   <div>
+    <label class='form-check-label' for="test">Pessoa</label>
+    <InputText id="pessoa" @bind-Value="client.Pessoa" class="form-control" style='' />
+   </div>
   </div>
   <button class="btn btn-primary" type="submit">Pesquisar</button>
  </EditForm>
 
  <div>
   <div style='margin-bottom:10px; margin-top:20px;'>
-   <label for=""> Recorrência</label>
+   <label for="">Recorrência</label>
   </div>
 
   <div>
@@ -64,10 +65,18 @@
 
 @code{
  private Client client = new Client();
-
+ @*
+  const inputName = document.getElementById('name');
+  const inputTipo = document.getElementById('tipo');
+  const inputPessoa = document.getElementById('pessoa');
+  const inputUsuario = document.getElementById('usuario');
+ *@
  private void HandleValidSubmit()
  {
 
  }
+ private void reset()
+ {
 
+ }
 }
